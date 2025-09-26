@@ -57,6 +57,16 @@ export type AccountUsage = {
   manualUsage: number
 }
 
+export type AccountSessionUserUsage = {
+  devices: number,
+  duration: number,
+  osVersions: number,
+  sessions: number,
+  sessionShare: number
+  userId: number,
+  userName: string,
+}
+
 export type AccountSessionUsage = {
   createTime: number,
   deviceModelName: string,
